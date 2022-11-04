@@ -1,0 +1,461 @@
+@media only screen and (max-width: 5000px) and (min-width: 1801px) {
+    .divied {
+        display: block;
+        text-align: center;
+        margin-left: -160px;
+    }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1601px) {
+    .divied {
+        display: block;
+        text-align: center;
+        margin-left: -150px;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1401px) {
+    .divied {
+        display: block;
+        text-align: center;
+        margin-left: -120px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .custom-margin {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    /*
+    .main-hero-section {
+        padding-top: 550px;
+    }
+*/
+}
+
+@media all and (max-width:991px) {
+    .pcDisplay {
+        display: none;
+    }
+
+    .responsive_header {
+        display: block;
+    }
+
+    .main-header-area {
+        display: none;
+    }
+
+    .user-icon ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .count {
+        right: 17%;
+        top: 0%;
+    }
+
+    .displayNone769 {
+        display: none;
+    }
+
+    .divied {
+        display: inline !important;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .hero-text-area h1 {
+        padding-top: 20px;
+    }
+
+    .hero-right-side img {
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .custom-margin {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .product-item {
+        margin-bottom: 40px;
+    }
+
+    .customer-say-item {
+        margin-bottom: 40px;
+    }
+
+    .ratting-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .write-comment-area {
+        margin-top: 40px;
+    }
+
+    .guarantee-note h1 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .recommended-heading h1 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .recommended-item {
+        margin-bottom: 40px;
+    }
+
+    .choose-button-area .choose-button {
+        width: 70%;
+    }
+
+    /*
+    .main-hero-section {
+        padding-top: 400px;
+    }
+*/
+}
+
+@media all and (max-width:767px) {
+    .hero-text-area {
+        padding-left: 0px;
+    }
+
+    .hero-text-area h2 {
+        font-size: 41px;
+        line-height: 50px;
+    }
+
+    .control-heading-area h1 {
+        font-size: 25px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+    .choose-button-area {
+        padding-top: 15px;
+    }
+
+    .customers-love-product-heading-area h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .packge-item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .flexbBox {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .filter-button button {
+        margin-top: 20px;
+    }
+
+    .guarantee-note h1 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .recommended-heading h1 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    /*
+    .main-hero-section {
+        padding-top: 300px;
+    }
+*/
+}
+
+@media all and (max-width:577px) {
+    .hero-text-area h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .hero-text-area p {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .customer-say-heading h1 {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .customer-say-item p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .ratting-count {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .ratting {
+        border: none;
+        padding: 0px 0px;
+        padding-top: 30px;
+    }
+
+    .customer-comment p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .customer-given-ratting h1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .client-feedback p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .product-item p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .deliver-item p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .customer-say-item h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .recommended-item ul {
+        padding-left: 20px;
+    }
+
+    /*
+    .main-hero-section {
+        padding-top: 250px;
+    }
+*/
+    .footer-link-item ul li {
+        padding: 0px 12px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .guarantee-choose-button button {
+        background: #009a44;
+    }
+
+    .hero-text-area h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .hero-text-area h1 {
+        font-size: 51px;
+        padding-top: 0px;
+    }
+
+    .hero-text-area p {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 18px 0px;
+    }
+
+    .hero-review p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .feedback-start {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .control-heading-area h1 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .paduct-heading-area h1 {
+        line-height: 35px;
+    }
+
+    .customer-say-heading h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .main-review-item h1 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .filter-button button {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 12px;
+    }
+
+    .filter-heading h2 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .guarantee-choose-button button {
+        padding: 15px 20px;
+        border-radius: 10px;
+        background: #009a44;
+    }
+
+    .main-hero-section {
+        padding-top: 0px;
+        padding: 0px 0px 0px;
+    }
+
+    .footer-link-item ul li {
+        border: none;
+        margin: 7px 0px;
+    }
+
+    .footer-link-item ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:400px) {
+    .hero-text-area h2 {
+        font-size: 27px;
+        line-height: 50px;
+    }
+
+    .hero-text-area h1 {
+        font-size: 51px;
+        padding-top: 0px;
+    }
+
+    .hero-text-area p {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .choose-button-area .choose-button {
+        width: 100%;
+    }
+
+    .feedback-start {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .control-heading-area h1 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .paduct-heading-area h1 {
+        line-height: 35px;
+    }
+
+    .customer-say-heading h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .main-review-item h1 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+}
+
+@media all and (max-width:375px) {
+    .hero-text-area h2 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .hero-text-area h1 {
+        font-size: 51px;
+        padding-top: 0px;
+    }
+
+    .hero-text-area p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
+@media all and (max-width:349px) {
+    .hero-text-area h2 {
+        font-size: 22px;
+        line-height: 50px;
+    }
+
+    .hero-text-area h1 {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+
+    .hero-text-area p {
+        font-size: 22px;
+        line-height: 40px;
+    }
+}

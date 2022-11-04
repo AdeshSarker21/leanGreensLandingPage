@@ -1,0 +1,1267 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*=========================================*/
+/*==========Start Header Section==========*/
+/*=========================================*/
+.top-header-area {
+    background-color: #000;
+    padding: 10px 0px;
+}
+
+.top-header-text {
+    text-align: center;
+}
+
+.top-header-text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main-header-area {
+    padding: 15px 0px;
+}
+
+.flexBoxS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {}
+
+.menu-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+.user-icon {}
+
+.user-icon ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-icon ul li {}
+
+.user-icon ul li a {
+    display: inline-block;
+}
+
+.user-icon ul li a i {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #a8a8a8;
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.user-icon ul li a i:hover {
+    color: #000;
+}
+
+.count-possition {
+    position: relative;
+}
+
+.count {
+    display: inline-block;
+    font-size: 10px;
+    background-color: #a8a8a8;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.pcDisplay {}
+
+.responsive_header {
+    display: none;
+}
+
+/*=========================================*/
+/*==========End Header Section==========*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start Hero Section==========*/
+/*=========================================*/
+.main-hero-section {
+    /*
+    background: url(../images/hero-bg.jpg)no-repeat scroll 0 0 / 100% 100%;
+    padding: 60px 0px 25px;
+    padding-top: 700px;
+*/
+    background: #000000;
+}
+
+.heroBg {}
+
+.heroBg .hero-image {
+    height: auto;
+    width: 100%;
+}
+
+.choose-button-area {
+    text-align: center;
+}
+
+.custom-margin {
+    margin-top: -110px;
+}
+
+.choose-button-area .choose-button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background: #ef8905;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.divied {
+    display: block;
+    text-align: center;
+    margin-left: -70px;
+}
+
+/*=========================================*/
+/*==========End Hero Section==========*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start Woriking Section==========*/
+/*=========================================*/
+.miani-working-area {
+    padding: 40px 0px;
+}
+
+.working-item {
+    text-align: center;
+}
+
+.working-item img {
+    margin-bottom: 25px;
+}
+
+.working-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.working-item p span {
+    font-weight: 600;
+}
+
+/*=========================================*/
+/*==========End Woriking Section==========*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start Feedback Section==========*/
+/*=========================================*/
+.client-feedback-area {
+    background-color: #fcf9f1;
+    padding: 40px 0px;
+}
+
+.client-feedback {
+    text-align: center;
+}
+
+.client-feedback img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.client-feedback h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000;
+    padding-bottom: 25px;
+}
+
+.client-feedback p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    font-style: italic;
+}
+
+.feedback-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 15px 0px 0px;
+}
+
+.feedback-start img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 3px;
+}
+
+.feedback-start p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+/*=========================================*/
+/*==========End Feedback Section==========*/
+/*=========================================*/
+/*================================================*/
+/*==========Start Control Apperite Section==========*/
+/*================================================*/
+.main-control-appertie-area {
+    padding: 40px 0px;
+}
+
+.control-heading-area {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.control-heading-area h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.control-heading-area p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #000;
+}
+
+.control-heading-area p span {
+    font-weight: 600;
+}
+
+.control-item {
+    text-align: center;
+}
+
+.control-item img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.control-item h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    height: 35px;
+}
+
+.control-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    height: 80px;
+}
+
+.choose-button-area {
+    padding-top: 40px;
+}
+
+.choose-button-area button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background: #ef8905;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.choose-button-area p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    height: 35px;
+}
+
+/*================================================*/
+/*==========End Control Apperite Section==========*/
+/*================================================*/
+/*================================================*/
+/*==========Start Product Section==========*/
+/*================================================*/
+.main-customers-love-product-area {
+    padding: 40px 0px;
+}
+
+.customers-love-product-heading-area {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.customers-love-product-heading-area h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+}
+
+..product-item {}
+
+.product-item img {
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product-item h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    padding: 20px 0px 30px;
+}
+
+.product-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.product-item p span {
+    font-weight: 700;
+}
+
+/*================================================*/
+/*==========End Product Section==========*/
+/*================================================*/
+/*================================================*/
+/*==========Start Product Packge Section==========*/
+/*================================================*/
+.main-product-packge-area {
+    padding: 40px 0px;
+}
+
+.flexbBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.paduct-heading-area {
+    text-align: center;
+}
+
+.paduct-heading-area p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.paduct-heading-area h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.packge-item {
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid #919191;
+    width: 32%;
+    height: auto;
+}
+
+.packge-item .product-image {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.packge-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.packge-item p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #000;
+}
+
+.packge-item p span {
+    font-weight: 400;
+}
+
+.packge-item ul {
+    text-align: left;
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.packge-item ul li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000;
+}
+
+.packge-item ul li span {
+    font-weight: 600;
+}
+
+.pice-area {
+    padding-top: 20px;
+}
+
+.pice-area p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000;
+    padding-bottom: 15px;
+}
+
+.pice-area h6 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #999999;
+}
+
+.buy-button-area {
+    margin: 20px 0px;
+}
+
+.buy-button-area button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background: #3e5221;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-transition: 0.2;
+    -o-transition: 0.2;
+    transition: 0.2;
+}
+
+.active-btn {
+    background: #ef8905 !important;
+    width: 100%;
+}
+
+.active-border {
+    border: 2.5px solid #000;
+}
+
+.product-details {}
+
+.product-details ul {}
+
+.product-details ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.product-details ul li img {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.product-details ul li p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000;
+}
+
+.note {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.note img {}
+
+.note p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000;
+}
+
+/*================================================*/
+/*==========End Product Packge Section==========*/
+/*================================================*/
+/*================================================*/
+/*===============Start Deliver Section===============*/
+/*================================================*/
+.main-deliver-area {
+    padding: 40px 0px;
+}
+
+.deliver-item {
+    text-align: center;
+}
+
+.deliver-item img {
+    width: 100%;
+    height: auto;
+    padding: 0px 20%;
+}
+
+.deliver-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.deliver-item p span {
+    font-weight: 600;
+}
+
+/*================================================*/
+/*===============End Deliver Section===============*/
+/*================================================*/
+/*================================================*/
+/*===============Start Customer Say Section==========*/
+/*================================================*/
+.main-customer-say-feedback-area {
+    padding: 40px 0px;
+    background-color: #fcf9f1;
+}
+
+.customer-say-heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.customer-say-heading h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+}
+
+.customer-say-item {}
+
+.customer-say-item h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+}
+
+.customer-say-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    font-style: italic;
+    padding: 20px 0px;
+}
+
+.swiper-slide img {
+    width: 90%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: calc(var(--swiper-navigation-size)/ 10 * 10);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    background: gray;
+    padding: 5px 10px;
+}
+
+.ratting-area {
+    padding: 40px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.ratting-count {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.avarage {
+    padding-right: 30px;
+}
+
+.flexBoxTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.avarage h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 20px;
+    color: #000;
+}
+
+.avarage p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.start-area {}
+
+.start-area i {
+    color: #ffd200;
+}
+
+.ratting {
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    padding: 0px 25px;
+}
+
+.five-start-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bar-area {
+    margin: 0px 15px;
+}
+
+.bar {
+    width: 140px;
+    height: 10px;
+    background: #f0f0f0;
+}
+
+.ratting-one {
+    position: relative;
+}
+
+.ratting-one::after {
+    position: absolute;
+    content: "";
+    clear: both;
+    height: 100%;
+    width: 90%;
+    top: 0%;
+    left: 0%;
+    background: #ffd200;
+}
+
+.ratting-two {
+    position: relative;
+}
+
+.ratting-two::after {
+    position: absolute;
+    content: "";
+    clear: both;
+    height: 100%;
+    width: 10%;
+    top: 0%;
+    left: 0%;
+    background: #ffd200;
+}
+
+.ratting-three {
+    position: relative;
+}
+
+.ratting-three::after {
+    position: absolute;
+    content: "";
+    clear: both;
+    height: 100%;
+    width: 3%;
+    top: 0%;
+    left: 0%;
+    background: #ffd200;
+}
+
+.count-area {}
+
+.count-area p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.write-comment-area {}
+
+.write-comment-area button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #ccd6e0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.write-comment-area button img {
+    height: 20px;
+    width: 20px;
+}
+
+.review-area {}
+
+.review-item {
+    border-top: 1px solid #ccd6e0;
+    border-bottom: 1px solid #ccd6e0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.main-review-item h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.main-review-item h1 span {
+    background: #ccd6e0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.main-review-item h1::after {
+    position: absolute;
+    content: "";
+    clear: both;
+    bottom: 0%;
+    left: 0%;
+    height: 3px;
+    width: 100%;
+    background: #000;
+}
+
+.filter-area {}
+
+.filter-heading {}
+
+.filter-heading h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+}
+
+.flexBoxThree {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.filter-button {}
+
+.filter-button button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #6b6d76;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #ccd6e0;
+    margin-right: 10px;
+}
+
+.customer-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.customer-name h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.customer-name h2 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #25c48b;
+}
+
+.customer-counter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.customer-counter img {
+    margin-right: 10px;
+}
+
+.customer-counter p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.customer-given-ratting {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 30px 0px 15px;
+}
+
+.customer-given-ratting i {
+    color: #ffd200;
+}
+
+.customer-given-ratting h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.customer-comment p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.load-more-button {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.load-more-button button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #333333;
+}
+
+/*================================================*/
+/*===============End Customer Say Section==========*/
+/*================================================*/
+/*================================================*/
+/*===========Start Guarantee Note Section==========*/
+/*================================================*/
+.guarantee-note-area {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.guarantee-choose-button {}
+
+.guarantee-choose-button button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 90px;
+    border-radius: 10px;
+    background: #009a44;
+}
+
+.guarantee-choose-button p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.guarantee-note {}
+
+.guarantee-note h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    font-style: italic;
+    padding: 50px 0px 20px;
+}
+
+.guarantee-note p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.guarantee-note p span {
+    font-weight: 600;
+}
+
+/*================================================*/
+/*===============End Guarantee Note Section==========*/
+/*================================================*/
+/*================================================*/
+/*===============Start recommended Section==========*/
+/*================================================*/
+.main-recommended-area {
+    padding: 40px 0px;
+    background-color: #fcf9f1;
+}
+
+.recommended-heading {
+    text-align: center;
+}
+
+.recommended-heading h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.recommended-item {}
+
+.recommended-item img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.recommended-item h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.recommended-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.recommended-item h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    line-height: 20px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.choose-your-strate-button {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.main-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*================================================*/
+/*===============End recommended Section==========*/
+/*================================================*/
+/*================================================*/
+/*===============End Footer Section==========*/
+/*================================================*/
+.main-footer-area-start {
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 20px 0px;
+}
+
+.footer-link-item {}
+
+.footer-link-item ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link-item ul li {
+    border-right: 1px solid #000;
+    padding: 0px 15px;
+}
+
+.footer-link-item ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.footer-link-item ul li:last-child {
+    border: none;
+}
+
+.copyright-area {
+    padding-top: 20px;
+}
+
+.copyright-area a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    padding: 15px 0px;
+}
+
+.testimonials-area {
+    padding: 20px 0px;
+}
+
+.testimonials-area h1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+}
+
+.testimonials-area p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.address-area {}
+
+.address-area p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.address-area a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    display: block;
+}
+
+/*================================================*/
+/*===============End Footer Section==========*/
+/*================================================*/
